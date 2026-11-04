@@ -18,6 +18,21 @@
 
 ---
 
+## Source moved to skillar.sh
+
+Personal skills are now authored and versioned directly at
+[skillar.sh/skills](https://skillar.sh/skills/), and approved agents connect to
+[skillar.sh/mcp](https://skillar.sh/mcp). This GitHub repository is no longer the
+source of truth for that personal catalog. The legacy GitHub-to-R2 publisher is
+disabled; new personal skill versions do not require a GitHub commit or release.
+
+Keep this repository and its history as a reference. In particular, retain
+[`eval/`](eval/), its datasets and results, and the associated policies as the
+specification inputs for a future skillar evaluation-gated promotion feature.
+Uploading or versioning a skill in skillar does not implement that future gate.
+The retained catalog below and its local runtime instructions remain
+available for reference; the repository itself is not archived or deleted.
+
 ## “Act like an expert.” And do what, exactly?
 
 People say they've uploaded tacit knowledge. Encoded expertise. Transferred know-how.
@@ -86,15 +101,18 @@ Select self-contained procedures connecting user goals, concepts, contracts, res
 
 **No installation needed to read a skill.** Open any `SKILL.md` linked above.
 
-To use the catalog through an agent, follow [skillar's runtime connection guides](https://github.com/changeroa/skillar#get-started). This repository holds the instructions. skillar provides the server and clients that discover and deliver them.
+For the owner's current personal catalog, approve a connection at
+[skillar.sh/connections](https://skillar.sh/connections/) and use the skillar MCP
+at `https://skillar.sh/mcp`. Edit and publish versions at
+[skillar.sh/skills](https://skillar.sh/skills/).
 
-The primary setup uses Skillar installed from npm with a local catalog. The former personal Cloudflare deployment is retired; pushing this repository does not publish to it.
+For the retained local catalog, follow [skillar's runtime connection guides](https://github.com/changeroa/skillar#get-started). The npm setup serves local files separately. Pushing this repository does not publish personal skill versions to skillar.sh or reactivate the legacy publisher.
 
 Example request for a connected agent:
 
 > Find and read ux-state-review on Skillar. Review this signup flow's loading, verification-pending, failure, and re-entry states. Separate verified evidence from unchecked assumptions.
 
-Keep the selected skill and supporting material pinned to the same commit. Skills are instructions, not permission grants. Your environment still controls tool access and execution authority.
+Keep a hosted skill and its supporting material pinned to the same version digest; use a commit for the retained local catalog. Skills are instructions, not permission grants. Your environment still controls tool access and execution authority.
 
 ## Contribute a skill
 
