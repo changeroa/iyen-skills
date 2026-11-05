@@ -1,0 +1,29 @@
+{
+  "skillId": "db6b2c64-f635-4431-9f9c-bd1eaef1412b",
+  "version": {
+    "digest": "227d3eda034639364cbb9e3f27e343c73026f1ae070d16b7a334c2e3cc506385",
+    "createdAt": 1793753470974,
+    "pinned": false
+  },
+  "package": {
+    "manifest": {
+      "schemaVersion": 1,
+      "entrypoint": "SKILL.md",
+      "resources": [
+        {
+          "path": "SKILL.md",
+          "mediaType": "text/markdown",
+          "bytes": 1170,
+          "digest": "48d3b393889bca265b81d652803030c491438b05bdfa15575bef75a5042f5a90"
+        }
+      ]
+    },
+    "manifestDigest": "227d3eda034639364cbb9e3f27e343c73026f1ae070d16b7a334c2e3cc506385",
+    "contents": [
+      {
+        "path": "SKILL.md",
+        "body": "LS0tCm5hbWU6IGFzaWRlLWJyb3dzZXIKdmVyc2lvbjogMwpkZXNjcmlwdGlvbjogUmVhZCB3aGVuIHlvdSBuZWVkIGEgYnJvd3Nlciwgb3IgaGF2ZSB0byB3b3JrIGFjcm9zcyB1c2VyJ3MgbG9nZ2VkLWluIHdlYnNpdGVzIChlLmcuIEdtYWlsLCBTbGFjaywgY2xvdWQgY29uc29sZXMsIGV0Yy4pLCBvciBoYXZlIHRvIHJlZmVyIHBlcnNvbmFsIGNvbnRleHRzIGxpa2UgbWVtb3J5IGFuZCBicm93c2luZyBoaXN0b3J5LgprZXl3b3JkczogWyLruIzrnbzsmrDsoIAiLCAi7Ju57IKs7J207Yq4IiwgIuuhnOq3uOyduCIsICLtjpjsnbTsp4Ag7YOQ7IOJIiwgIuuyhO2KvCDtgbTrpq0iLCAi7ZmU66m0IOyXtOq4sCIsICJicm93c2VyIGF1dG9tYXRpb24iLCAiYXV0aGVudGljYXRlZCB3ZWJzaXRlIiwgIm5hdmlnYXRlIGNsaWNrIiwgImJyb3dzaW5nIGhpc3RvcnkiXQotLS0KCiMgQXNpZGUKClRoaXMgZmlsZSBpcyBvbmx5IGFuIGVudHJ5IHBvaW50LiBZb3UgTVVTVCBydW4gYGFzaWRlIGd1aWRlYCB0byByZWFkIHRoaXMgc2tpbGzigJlzIGFjdHVhbCBpbnN0cnVjdGlvbnMgYmVmb3JlIHVzaW5nIEFzaWRlLCB0aGVuIGZvbGxvdyB0aGVtLgoKLSBJZiBgYXNpZGVgIGlzIG5vdCBpbnN0YWxsZWQsIGFzayB0aGUgdXNlciBmb3IgcGVybWlzc2lvbiB0byBpbnN0YWxsIEFzaWRlIENMSS4gQWZ0ZXIgdGhlIHVzZXIgYXBwcm92ZXMsIHJ1biB0aGUgbWFjT1MvTGludXggaW5zdGFsbGVyIGBjdXJsIC1mc1NMIGh0dHBzOi8vcmVsZWFzZXMuYXNpZGUuY29tL2luc3RhbGwuc2ggfCBiYXNoYCwgdGhlbiBydW4gYGFzaWRlIGd1aWRlYC4KLSBJZiBgYXNpZGUgZ3VpZGVgIGlzIHJlcG9ydGVkIGFzIGFuIHVua25vd24gY29tbWFuZCwgeW91ciBDTEkgaXMgb3V0ZGF0ZWQuIFJ1biBgYXNpZGUgLS11cGRhdGVgLCB0aGVuIHJ1biBgYXNpZGUgZ3VpZGVgIGFnYWluLgotIElmIGEgbmV3ZXIgQ0xJIHZlcnNpb24gaXMgYXZhaWxhYmxlLCB0aGUgZ3VpZGUgbWF5IGJlIG91dGRhdGVkLiBBbHdheXMgcnVuIGBhc2lkZSAtLXVwZGF0ZWAsIHRoZW4gcnVuIGBhc2lkZSBndWlkZWAgYWdhaW4gYmVmb3JlIGNvbnRpbnVpbmcuCgpJZiBpbnN0YWxsYXRpb24gb3IgYW4gdXBkYXRlIGZhaWxzLCByZXBvcnQgdGhlIGVycm9yIGluc3RlYWQgb2YgZ3Vlc3NpbmcgdGhlIENMSSB1c2FnZS4K"
+      }
+    ]
+  }
+}

@@ -26,6 +26,10 @@ Personal skills are now authored and versioned directly at
 source of truth for that personal catalog. The legacy GitHub-to-R2 publisher is
 disabled; new personal skill versions do not require a GitHub commit or release.
 
+[Offline catalog backups](backups/skillar/) retain current files and all versions
+still stored at capture for recovery. They do not replace the hosted source of
+truth or reactivate the legacy publisher.
+
 Keep this repository and its history as a reference. In particular, retain
 [`eval/`](eval/), its datasets and results, and the associated policies as the
 specification inputs for a future skillar evaluation-gated promotion feature.

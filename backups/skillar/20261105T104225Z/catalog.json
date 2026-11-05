@@ -1,0 +1,845 @@
+{
+  "revision": 115,
+  "skills": [
+    {
+      "skillId": "03bf8494-f326-4fb3-b48d-3f40ccccd449",
+      "name": "pattern-application",
+      "description": "Select and apply design patterns from concrete problems, forces, simple alternatives and collaboration contracts. Use for Adapter, Strategy, Composite, Facade, Observer, Factory, Singleton, Proxy, State, Command, Template Method, Abstract Factory, Polymorphism, Pure Fabrication, Indirection and Protected Variations tradeoffs, participant responsibilities, lifecycle and validation. 실제 설계 문제와 변화 축에 맞는 패턴과 단순 대안을 비교·적용한다.",
+      "head": {
+        "digest": "2202a82f673f80f3b6908ee47853d3e9ac3ffe6ded5d6d989ed1abb896fc41f4",
+        "revision": 1
+      },
+      "updatedAt": 1793843529681
+    },
+    {
+      "skillId": "07b6319f-e25e-47b7-8823-80063d449477",
+      "name": "prism",
+      "description": "Split one artifact — a claim, plan, or file — across 2 to 5 independent lenses, one per genuinely distinct failure mode (correctness, security, readability, cost, adversarial-user), and return their convergence: where they agree, where they disagree, and the single next question that resolves the disagreement. Use when one reviewer isn't enough because the failure modes are heterogeneous, or a claim looks strong to its author and needs cross-lens pressure before it ships.",
+      "head": {
+        "digest": "0567dfe6b2a9516f5d1f6cf80d561a4dece7982647f4546340e13c3eb03d5a81",
+        "revision": 1
+      },
+      "updatedAt": 1793753638791
+    },
+    {
+      "skillId": "0f4bcf8b-be5f-4661-a9ac-1080f5687902",
+      "name": "re0",
+      "description": "Refresh an existing artifact into the current best v0. Use when the user asks to clean up, sync up, dedupe, de-noise, smooth, rewrite, or update an artifact after iteration; when nearby artifacts may have drifted; or when changes in one place should be reflected across related artifacts while keeping the result minimal.",
+      "head": {
+        "digest": "5c4790e783dc7a4e535b67122d610a0ac9c41717c73b31d053a5f9347f582e5d",
+        "revision": 1
+      },
+      "updatedAt": 1793753643714
+    },
+    {
+      "skillId": "0f82329f-600f-447c-a3d4-3eb9ef0b002b",
+      "name": "object-design",
+      "description": "독립적인 UML·객체 분석·설계 팩의 진입점이다. 요구사항, use case, domain model, operation contract, 객체 책임·협력, UML notation, 설계 패턴과 아키텍처 뷰 중 현재 결정에 필요한 절차를 선택한다. 기존 코드 정리만 요청한 경우에는 전체 모델링을 강제하지 않는다.",
+      "head": {
+        "digest": "695f859cde9c9a2d856ee84b72795b25fa03030d6ffe8756a1ea4f9665588be9",
+        "revision": 1
+      },
+      "updatedAt": 1793843057022
+    },
+    {
+      "skillId": "10492e1c-69b0-452f-8b83-0f797d2d0ada",
+      "name": "test-behavior-flows",
+      "description": "여러 행동과 상태 변화가 이어지는 기능의 테스트를 설계·실행하고 검증 공백을 찾는다. 상호작용, 비동기 처리, 복구, 데이터 일관성이 중요한 기능의 검증과 회귀 테스트에 사용한다.",
+      "head": {
+        "digest": "0e4007c5dffff1a8da52b141c6f919fb14e9c679612b1ba62a04aba75be682c0",
+        "revision": 1
+      },
+      "updatedAt": 1793753781863
+    },
+    {
+      "skillId": "1615488c-4621-4633-811a-c8123d5d4d86",
+      "name": "responsibility-design",
+      "description": "Design object responsibilities and collaborations from scenarios, system operations, SSD, knowing/doing obligations, Information Expert, Creator, Controller, Low Coupling and High Cohesion. Use for responsibility assignment, use-case realization, object messages, visibility, creation ownership and coordinator design. 객체의 책임과 협력을 시나리오와 제약에 맞춰 배정한다.",
+      "head": {
+        "digest": "1cf6cc4dd1df7cd8a3dab0f827e44860845de98cf5fc845760ddf3987f53da95",
+        "revision": 1
+      },
+      "updatedAt": 1793843514941
+    },
+    {
+      "skillId": "1849600b-81ce-4352-adff-7a8cae07f483",
+      "name": "ux-state-review",
+      "description": "온보딩, 권한, 선행정보 입력, 조건부 기능과 다단계 흐름을 구현하거나 검토할 때 상태별 UX 누락을 찾는다. 준비 전·대기·빈 결과·실패를 구분하고 화면, 다음 행동, 데이터 요청, 상태 전환을 함께 검증한다. 단순 스타일 변경이나 일반적인 코드 리뷰에는 적용하지 않는다.",
+      "head": {
+        "digest": "6cd9530d829c99ec6b28b746fed59d2fd8c0aefbae667e9b39fc33297eeebb55",
+        "revision": 1
+      },
+      "updatedAt": 1793753849810
+    },
+    {
+      "skillId": "1a83fe87-b678-409e-ac5b-9781d83b3425",
+      "name": "review-verifier",
+      "description": "Assess other reviewers' findings by checking original sources, actively seeking counterevidence, evaluating change relevance and severity, and auditing evidence. Use after specialist review and before the final report; audit scope and execution claims even when there are zero candidates.",
+      "head": {
+        "digest": "be1d862bf9b76f0c86dd78494a7ae160949629a2d5ed1515d387dd1a66aacb41",
+        "revision": 1
+      },
+      "updatedAt": 1793753760308
+    },
+    {
+      "skillId": "1db20ec8-4a29-43a1-bc9c-db6ada8b6106",
+      "name": "reorder",
+      "description": "Realign a listing whose order has gone arbitrary — a list, table, catalog, sections, an enum — into a logical sequence under one stated principle. Move items only: nothing is reworded, added, or removed. Use when the order no longer helps a reader follow the set.",
+      "head": {
+        "digest": "534ff48e0145fc9357f40b1a0593261d130944a7c7aa841be28156ed11706988",
+        "revision": 1
+      },
+      "updatedAt": 1793753691550
+    },
+    {
+      "skillId": "1e18990a-23da-437f-b8e1-ac95addd306d",
+      "name": "testing-database",
+      "description": "database integration test를 실제 DBMS, schema migration, transaction boundary, reference data와 test data lifecycle 기준으로 설계·리뷰한다. ORM·query·persistence 회귀를 신뢰성 있게 검증할 때 사용한다.",
+      "head": {
+        "digest": "51e7c9575de479185a8dce8d1faed2e49c437805b337e2ddba926c6d017facff",
+        "revision": 1
+      },
+      "updatedAt": 1793753810240
+    },
+    {
+      "skillId": "1f3d9cf0-1474-4645-bad6-006c6c8f7199",
+      "name": "void-disk-cleanup",
+      "description": "디스크 용량 부족·빌드 캐시·node_modules·안 쓰는 git 워크트리 정리 요청이나 sweepy inbox 제안을 처리할 때, sweepy 제안을 요약해 보고하고 사용자가 승인한 제안만 적용한다. Disk space, build cache, stale git worktree cleanup with sweepy and Void.",
+      "head": {
+        "digest": "857c9d22fff7576da0dbf3cef4fc7927834a9f9ba7c9c8a8365af1f9c72f606c",
+        "revision": 1
+      },
+      "updatedAt": 1793753861196
+    },
+    {
+      "skillId": "22ac0609-a723-48ef-9d5d-be4c583412a4",
+      "name": "shower",
+      "description": "Cold-read the artifact you're focused on from a fresh, zero-context sub-session to confirm it stands on its own — a shower-thought reset for accumulated session bias. Use when a long session has worn away your fresh eyes and you can no longer tell whether the artifact in focus is clear to someone with no prior context; before a handoff, publish, or merge; or when you want a clean-room comprehension smoke test. Spawns a separate context-free reviewer; it diagnoses, it does not fix.",
+      "head": {
+        "digest": "b9a6235e9e0ff9cf3afbac742deafb684ec378fb130174c62004a5b6b2d6bd1d",
+        "revision": 1
+      },
+      "updatedAt": 1793753765490
+    },
+    {
+      "skillId": "234c6ec3-eb67-42a7-94d6-01cb5b8e4b21",
+      "name": "re0-upgrade",
+      "description": "Bring your installed paperthin skills up to the full current catalog in one step: retire what's been renamed, add every skill you don't have yet, and refresh the rest, all shown and confirmed before anything changes.",
+      "head": {
+        "digest": "47fdfc7c3d944342880de72ece5af1f2cd9c32cd336f43624ef0bfb7bcf9e4bf",
+        "revision": 1
+      },
+      "updatedAt": 1793753677282
+    },
+    {
+      "skillId": "2f2e0fe1-51cb-45c2-a31c-481571af175b",
+      "name": "ssotize",
+      "description": "Audit and consolidate a fact that's scattered across places into one canonical source, after approval, and replace the rest with references. Use when asked to find duplication, check consistency, locate the source of truth, deduplicate, consolidate, unify, or establish SSOT across artifacts or platforms. Starts read-only, reports the map and plan, then mutates only after explicit approval.",
+      "head": {
+        "digest": "2da2bf5663d95b002c342d91dd24d7a925aa81ac0b0be932b23c995ae78d6fd4",
+        "revision": 1
+      },
+      "updatedAt": 1793753775418
+    },
+    {
+      "skillId": "32841252-e8aa-4491-a1f6-57be9b2dc11d",
+      "name": "debloat",
+      "description": "Compress an artifact that has accreted into bloat — padding, over-qualification, fused sentences, walls of enumeration, adjacent restatement — down to its load-bearing density, meaning preserved. Use when prose is correct and current but has grown verbose or patched-over and you want it tight without a full rewrite.",
+      "head": {
+        "digest": "efa45a79574ff2d0fe7ee1dcdc9e127131f396171adb25602966dfca445e1b20",
+        "revision": 1
+      },
+      "updatedAt": 1793753545829
+    },
+    {
+      "skillId": "351f8b72-2ed5-4a00-bb2a-9005f0e7ee44",
+      "name": "aim",
+      "description": "When data lands with a thin ask — files, a repo, a paste, a chat scrollback — read it and propose what the user is trying to do with it, as a proposal to confirm rather than a question to answer. Use the moment material arrives without a fully-formed ask, or when the ask reads thinner than the data suggests.",
+      "head": {
+        "digest": "b65960a55e951982f0190587bd9f66b0487ce6eb025e94024ad832a41191e574",
+        "revision": 3
+      },
+      "updatedAt": 1793768569009
+    },
+    {
+      "skillId": "3931f9b2-a94d-415a-8012-3e94a11eef92",
+      "name": "catchup",
+      "description": "Rebuild the human's lost context on a project from live state, in plain language: what needs them, what changed, what new words mean. Use when the human returns after a gap, says they can't follow the project anymore, asks what happened or what a term means, or before deciding what to do next when their mental model is stale. Read-only; it briefs, it does not act.",
+      "head": {
+        "digest": "d108ddc11e27358fc04a617101caa154b3945ff35d268066707b3849b9581fa6",
+        "revision": 1
+      },
+      "updatedAt": 1793753485671
+    },
+    {
+      "skillId": "396e1467-1682-46e9-a51e-4a22b4b9c9bb",
+      "name": "review-security-privacy",
+      "description": "Review authentication and authorization, tenant isolation, trust boundaries, injection, SSRF, browser security, and secret or personal-data exposure. Use for changes to APIs, uploads, permissions, external inputs, serialization, security configuration, or agent tools.",
+      "head": {
+        "digest": "c696f8cd243d2e8a3d272e77434c8b09f04368d0b30aa506d1ab199eadf6b7ca",
+        "revision": 1
+      },
+      "updatedAt": 1793753750477
+    },
+    {
+      "skillId": "419ab560-49f5-4b69-87da-3fed97f2a29f",
+      "name": "clean-code-design",
+      "description": "Clean Code 2판의 simple design, SOLID, component principles, continuous design을 적용해 software design을 리뷰하거나 점진적으로 개선한다. YAGNI, real duplication, testability, SRP/OCP/LSP/ISP/DIP, component cohesion·coupling, dependency cycle, over-abstraction, changeability를 판단할 때 사용한다.",
+      "head": {
+        "digest": "5d426feb44af977e96a782578939f07bd3a1144f31f5d084a9f71c69b6acc6f6",
+        "revision": 1
+      },
+      "updatedAt": 1793753515915
+    },
+    {
+      "skillId": "4693f6e0-c808-4f8b-be81-f6527997f2d3",
+      "name": "testing",
+      "description": "테스트 전략을 설계·리뷰하고 unit test, integration test, mock, database test, testability와 anti-pattern 전문 절차를 선택한다. coverage보다 회귀 방지, refactoring 내성, 빠른 피드백과 유지비를 함께 판단할 때 사용한다.",
+      "head": {
+        "digest": "976a1e9982d91ce8bee8a01c2857413954d070da926cf833a25cbd7f50ee04ee",
+        "revision": 1
+      },
+      "updatedAt": 1793753791216
+    },
+    {
+      "skillId": "4746d25e-a9dd-4e9c-9795-64aefff91e19",
+      "name": "re0-git",
+      "description": "Rewrite a finished commit's message into a clean, handoff-ready form in your own log style, so `git log` alone tells the story. User-invoked: run it after a commit.",
+      "head": {
+        "digest": "3a79bf90d31d7f7ce6e2df260b232e870725afda57585c332fb88598a981c176",
+        "revision": 1
+      },
+      "updatedAt": 1793753648515
+    },
+    {
+      "skillId": "48da0a00-efb5-4d52-bf32-534078322222",
+      "name": "re0-plan",
+      "description": "Open a paperthin iteration's casebook before re0-loop's first turn — seeded with real content the moment the folder exists, never an empty directory. User-invoked, paperthin-only: assumes the full skill package installed. Run when opening a new build cycle in this repo.",
+      "head": {
+        "digest": "0808336b05ddce0643895100bd34fb8d8c8eeb46694ab8a2b1feabbb9991af67",
+        "revision": 1
+      },
+      "updatedAt": 1793753667749
+    },
+    {
+      "skillId": "4d47cf54-eae3-46e7-82c2-8a08b09e5ea6",
+      "name": "re0-memo",
+      "description": "Turn a finished, failed, or disappointing work cycle into portable lessons, anti-patterns, quality gates, and next-cycle vocabulary. Use after a build, QA pass, demo, user complaint, or abandoned attempt when the useful output is what the next pass must learn rather than the code itself.",
+      "head": {
+        "digest": "a3c1bd97036757418adfd19b99dbad24c865b82ccfcf4a22cdca58f8561c7ec6",
+        "revision": 1
+      },
+      "updatedAt": 1793753658118
+    },
+    {
+      "skillId": "5070d025-b44c-4c2f-9159-2627b098b9d3",
+      "name": "contribute",
+      "description": "오픈소스 기여 후보를 검증하고 실제 동작 근거를 갖춘 작은 수정과 PR을 만든다. Open-source contribution triage, implementation, verification, and review follow-up에 사용한다.",
+      "head": {
+        "digest": "7198cefd88348f0ff8a86160aeafa31355941cec6f0d8205cf7209a2b82d470e",
+        "revision": 1
+      },
+      "updatedAt": 1793753540731
+    },
+    {
+      "skillId": "56b555d8-7faa-410f-a369-4ab67701fb5a",
+      "name": "review-client-runtime",
+      "description": "Review client code execution defects: asynchronous races, component lifetimes, form events, browser storage, SSR/navigation, value conversion and API integration. Use for frontend source correctness and client-server boundary failures. User-facing state design, visual usability and browser E2E observation belong to their existing dedicated skills.",
+      "head": {
+        "digest": "7f3ecaa577389344b53642c80c2ca6bf507434662b88fdceb6f1a2beb7835377",
+        "revision": 1
+      },
+      "updatedAt": 1793753705871
+    },
+    {
+      "skillId": "58294235-3bd5-47b1-a25c-d4f64a1ca65c",
+      "name": "clean-code-craft",
+      "description": "Clean Code 2판의 craftsmanship 장들로 개발 실행 방식과 팀 규율을 개선한다. 위험 책임, emergency patch cleanup, repeatable proof, small commits, continuous integration/build/deployment, relentless improvement, sustainable productivity, pairing·knowledge sharing, honest estimates, professional respect와 learning plan을 다룰 때 사용한다.",
+      "head": {
+        "digest": "52c6d727fd2c65dfdf10dd0300e5dc54f74e07a248bf07a8fa8ee294abc1158a",
+        "revision": 1
+      },
+      "updatedAt": 1793753511113
+    },
+    {
+      "skillId": "59679714-0cd4-4dda-8143-cb2844574839",
+      "name": "clean-code-objects",
+      "description": "Clean Code 2판의 objects, data structures, clean classes 원칙으로 객체·데이터 모델과 클래스 응집도를 리뷰하거나 리팩터링한다. getter/setter 남용, anemic·hybrid object, feature envy, Law of Demeter, DTO, class responsibility, public surface, 객체 대 절차형 설계의 tradeoff를 다룰 때 사용한다.",
+      "head": {
+        "digest": "e27f3db3b642baaf2c47dc73c1ea94825009f41bf61d7824dec8f98756674746",
+        "revision": 1
+      },
+      "updatedAt": 1793753525515
+    },
+    {
+      "skillId": "5b3c93f7-7bd0-4fdf-938a-9a5887a26c33",
+      "name": "architecture-modeling",
+      "description": "사용자·운영자의 품질 요구와 제약을 architecture drivers, quality scenarios, 논리·프로세스·배포 뷰로 표현하고 선택·검증 근거를 연결한다. 아키텍처 대안 비교, 뷰 간 일관성, 설계 인계에 사용하며 단순 그림 미화에는 적용하지 않는다.",
+      "head": {
+        "digest": "adae664dc9b90f63b4da47aded3b18d316e704a14506527e94d03e26635a7ada",
+        "revision": 1
+      },
+      "updatedAt": 1793843542470
+    },
+    {
+      "skillId": "5bebb37d-9861-4370-8b77-b53143e7b9dd",
+      "name": "clean-code-functions",
+      "description": "Clean Code 2판의 함수·메서드 원칙으로 function design과 local refactoring을 수행한다. 긴 함수, 깊은 중첩, 여러 abstraction level, 많은 인수, boolean flag, output parameter, command-query 혼합, error handling, hidden side effect, temporal coupling, duplicated policy를 리뷰하거나 동작 보존 방식으로 정리할 때 사용한다.",
+      "head": {
+        "digest": "a962f9ba18468e5ed0c8aba80ce38385f4886d677c0e043d40981d8d3228e57e",
+        "revision": 1
+      },
+      "updatedAt": 1793753520711
+    },
+    {
+      "skillId": "5c1b3b18-8239-4172-ab67-5794de15139b",
+      "name": "re0-work",
+      "description": "Restart a project or artifact from v0 while preserving only proven lessons, contracts, gates, vocabulary, real-surface tests, and negative corpus. Use when the foundation is wrong, accumulated code is misleading progress, or a new pass should learn from the old one without inheriting its accidental architecture.",
+      "head": {
+        "digest": "2a821ee359b6931d2d8ef488070a06e96c15fe031f43bafa452109f2cdf831a0",
+        "revision": 1
+      },
+      "updatedAt": 1793753682000
+    },
+    {
+      "skillId": "5c9f7040-41ad-4740-bcb0-039f82f0c234",
+      "name": "first-principles-research-brief",
+      "description": "낯선 분야 조사·제1원리 재설계 요청 시, 근거와 시각자료를 갖춘 단일 HTML 브리프를 만든다.",
+      "head": {
+        "digest": "c85048040fc85d2461a286a2a468160067f294375cb4098042d3bca6b17680b6",
+        "revision": 1
+      },
+      "updatedAt": 1793753588862
+    },
+    {
+      "skillId": "5da9fa43-9395-4194-826a-cc04aa1a92fd",
+      "name": "dedash",
+      "description": "Remove em-dashes and the dashes standing in for them from a user-owned scope, reading each occurrence in context and choosing the punctuation or wording that fits.",
+      "head": {
+        "digest": "3dc9acea0fe5671c702a17c811342aeced845ea5771155645bf8b87c5515b75d",
+        "revision": 1
+      },
+      "updatedAt": 1793753550982
+    },
+    {
+      "skillId": "6d45e601-1bef-4815-ae9a-1cd592e1a0bb",
+      "name": "arkpoint-ux-qa",
+      "description": "아크포인트 스튜디오의 운영 QA에서 QA 시계와 샘플 데이터를 준비해 실제 브라우저 사용자 여정·상태 전환을 탐색하고, HAR와 화면 증거를 연결한 재현 가능한 UX QA 보고서를 작성한다. 아크포인트의 탐색형 UX QA나 운영 사용자 여정 검증 요청에 사용한다. 코드 수정이나 일반 서비스 QA만 요청한 경우에는 적용하지 않는다.",
+      "head": {
+        "digest": "3f6504462472c1af7cb2911c5e5da404e4ffa152e0190dee81ee4ab34f400dbe",
+        "revision": 1
+      },
+      "updatedAt": 1793753465725
+    },
+    {
+      "skillId": "6f2efe9f-7eb0-4c82-8886-205e9ccf80cf",
+      "name": "clean-code-architecture",
+      "description": "Clean Code 2판의 two values, independence, architectural boundaries, clean boundaries, Clean Architecture 원칙으로 시스템 구조를 설계·리뷰한다. business policy와 framework·database·UI·vendor detail 분리, use-case independence, dependency rule, adapters, replaceability, testability, deferred decisions를 판단할 때 사용한다.",
+      "head": {
+        "digest": "4bbce54fff4b72b4ec24cdf895e81d3f905abea5a1b736d48a95445439ac5bc7",
+        "revision": 1
+      },
+      "updatedAt": 1793753501310
+    },
+    {
+      "skillId": "734bcfdd-08a9-45c8-8d5a-dbd1f4be4604",
+      "name": "dont-make-me-think",
+      "description": "Steve Krug의 Don't Make Me Think 원칙으로 실제 UI, URL, 스크린샷, 디자인 시안의 visual QA와 사용성 리뷰를 수행한다. 화면 이해, 탐색, 선택, 과업 완료를 방해하는 문제를 시각적 근거와 함께 우선순위화할 때 사용한다. 책 요약만 요청하거나 픽셀 차이 비교, 기능 테스트, 접근성 인증만 요청한 경우에는 적용하지 않는다.",
+      "head": {
+        "digest": "e90ded4d9d8f09bc468613f1ba85c4a08b73daf89d0f33717d4cedf30e943ce0",
+        "revision": 1
+      },
+      "updatedAt": 1793753568271
+    },
+    {
+      "skillId": "755447d8-875f-4300-a890-db4cc631355a",
+      "name": "re0-release",
+      "description": "Walk a pending change through this repo's shipping and releasing checklist end to end, then tag and publish once confirmed. User-invoked: run it when you've decided to ship.",
+      "head": {
+        "digest": "a4aa38dd7e560204164f79e1edf34890eb582c5df385e9e5e9efa397833a50d5",
+        "revision": 1
+      },
+      "updatedAt": 1793753672412
+    },
+    {
+      "skillId": "769eb6c2-91a0-41a1-b0bb-26d63d74baf1",
+      "name": "github",
+      "description": "GitHub 저장소에서 코드 변경을 커밋·push하고 PR을 생성·갱신하거나 배포를 준비할 때 사용한다. 배포보다 GitHub 반영을 항상 먼저 완료하고 원격 커밋과 배포 소스의 일치를 확인한다. 로컬 구현 완료 후 배포 요청에도 적용한다.",
+      "head": {
+        "digest": "13f303ff3c15320d8bf112bcef3402c99158401dc418885c93a3bfea3e28ba54",
+        "revision": 1
+      },
+      "updatedAt": 1793753594048
+    },
+    {
+      "skillId": "787e2449-acdb-4aab-b7fb-cdf33b105782",
+      "name": "uml-modeling",
+      "description": "UML로 요구사항·도메인·객체 협력·구조·상태·워크플로·배치를 분석, 설계, 설명하거나 기존 다이어그램의 의미와 표기를 검토한다. 클래스·객체·패키지·배치·유스케이스·시퀀스·통신·상태기계·활동·컴포넌트·복합구조·상호작용 개요·타이밍 및 collaboration의 선택, 표기 semantics, 코드와 모델의 일치가 필요할 때 사용한다.",
+      "head": {
+        "digest": "d2246fa39bab295d9b4f3906bf402feb69acbfed32c517103efe2a840aae606e",
+        "revision": 1
+      },
+      "updatedAt": 1793843442302
+    },
+    {
+      "skillId": "78e9a96d-479a-40a2-9064-e9baf9b2c0a4",
+      "name": "re0-loop",
+      "description": "Run repeated build -> QA -> re0-memo -> re0-work cycles while preserving learning and letting code die. Use for long agentic projects where progress must be measured by quality-cleared templates, reusable modules, and eliminated anti-patterns rather than hours spent or features accumulated.",
+      "head": {
+        "digest": "4eccd019d713ffe704cbbd40eef44562b46e4422a917a870572f6c4babdb2005",
+        "revision": 1
+      },
+      "updatedAt": 1793753653328
+    },
+    {
+      "skillId": "797c2f96-e4ef-494d-a792-bce6ff956c9e",
+      "name": "browser-e2e-review",
+      "description": "브라우저 E2E 테스트를 설계·실행·보강할 때 에이전트가 놓치는 UI 상태 변화와 시각적 드리프트를 검사한다. 처리 중·실패·복구, 화면 비교, 증거 기반 판정에 사용하며 단순 사이트 탐색이나 일반 코드 리뷰에는 적용하지 않는다.",
+      "head": {
+        "digest": "cad5133d10cadd64851237c278382578c2a3cadfb001ad4a44c2a654d2be8494",
+        "revision": 1
+      },
+      "updatedAt": 1793753480765
+    },
+    {
+      "skillId": "7f504b9c-e0a3-422c-9dc5-b8562e384fbe",
+      "name": "langfuse-trace-review",
+      "description": "Langfuse 트레이스·observation을 실제 조회해 요청, 응답, 도구 결과와 표본 범위를 검증한다. Use for trace inspection, failure investigation, and scheduled reviews through an already connected Langfuse reader.",
+      "head": {
+        "digest": "0f588b34b6532718bde517eb46c79f0672ea42d3879c6bd37504159839fe8321",
+        "revision": 1
+      },
+      "updatedAt": 1793753608532
+    },
+    {
+      "skillId": "7fc7a410-ebbd-47b8-84af-5a1dc2d3c58c",
+      "name": "review-performance-resources",
+      "description": "Review latency, throughput, complexity, database queries, caches, memory, connections, streams, and concurrency limits. Use for hot request paths, large datasets, parallelization, resource lifetimes, and performance-related changes.",
+      "head": {
+        "digest": "1c3439f50da80a3da6002813775e9c340b8229dff45f1215bafc4bbe8f0478d3",
+        "revision": 1
+      },
+      "updatedAt": 1793753745605
+    },
+    {
+      "skillId": "84252410-c0f3-4b99-8ce9-ed361c62fe21",
+      "name": "review-orchestrator",
+      "description": "Orchestrate evidence-first code reviews. Use for PRs, diffs, code changes, or repository review requests to classify risk, select only relevant specialist skills, investigate and challenge findings, and produce a final report. Do not modify code or automatically publish reviews.",
+      "head": {
+        "digest": "2920d4d660f7e8b025ad6c360890931f2bcf35aa67bb1cc3ab0b558d33055300",
+        "revision": 1
+      },
+      "updatedAt": 1793753740162
+    },
+    {
+      "skillId": "859167a0-a95e-4156-a8a3-b18f66c78666",
+      "name": "testing-antipatterns",
+      "description": "private method·state 노출, production test hook, 알고리즘 복제, concrete partial mock, ambient time 등 unit testing anti-pattern을 진단하고 행동 중심 대안으로 바꾼다.",
+      "head": {
+        "digest": "f3b2d9621b03c8a391ee79d41cca5b0f68246a026c9d07a5b7ca2f936e19277b",
+        "revision": 1
+      },
+      "updatedAt": 1793753801761
+    },
+    {
+      "skillId": "884eb950-09de-4b29-a41e-f84074dbb78b",
+      "name": "development-status",
+      "description": "개발 기록, PR, 이슈와 검증·배포 근거를 읽어 팀에 공유할 개발 현황을 작성한다. 개발자가 설명을 반복하지 않아도 기능별 진척, 남은 불확실성, 일정·범위 영향과 필요한 결정을 이해하게 한다. 주간 보고, 진행 상황 공유, 개발 인수인계에 사용하며 제품 기획이나 일반 코드 리뷰에는 적용하지 않는다.",
+      "head": {
+        "digest": "095e42301b6032c9d9c58f4daabcfdd2f37b4f570345c518ae1141b26eefbe0c",
+        "revision": 1
+      },
+      "updatedAt": 1793753561946
+    },
+    {
+      "skillId": "896bb209-e4e9-4d9c-b3ec-57d90e495bf8",
+      "name": "object-design-verification",
+      "description": "UML·객체 분석·설계 산출물의 요구 추적성, 모델 의미, 뷰 간 일관성과 코드·테스트 근거를 검증한다. 모델 리뷰, 설계 인계, 역공학·코드 생성 결과 확인에 사용한다. 렌더링·문법 통과만으로 설계나 구현의 정확성을 판정하지 않는다.",
+      "head": {
+        "digest": "c626ff6eb3d4973f4e94bf1584d661da64a299b0ffc54c879b8e7b1ee9f6e608",
+        "revision": 1
+      },
+      "updatedAt": 1793843323432
+    },
+    {
+      "skillId": "8c856517-bafe-4b4e-bf22-76d399dca03d",
+      "name": "review-tests",
+      "description": "Review test oracles, regression-detection ability, test doubles, integration and E2E boundaries, determinism, and execution evidence. Use for behavior changes, added or modified tests, and test-configuration changes to determine whether tests catch real risks.",
+      "head": {
+        "digest": "0705807d1c5077db08d83a37e2468deff84e67dd2feaafc81ac0aa8c539bfaa0",
+        "revision": 1
+      },
+      "updatedAt": 1793753755411
+    },
+    {
+      "skillId": "91aa8772-7f4e-48f5-abb6-1f24a4b12f22",
+      "name": "herdr-orchestrator",
+      "description": "Proactively create Herdr panes and delegate independent work to coding agents, with active lifecycle monitoring, edit ownership, conflict resolution, and verified integration. Use when coordinating multiple agents through Herdr or when asked to act as a Herdr orchestrator.",
+      "head": {
+        "digest": "44121820b9847d7ef6f699a35dae3a5aa3b9ae0b675830f3ed5d17aded83b36d",
+        "revision": 1
+      },
+      "updatedAt": 1793753603721
+    },
+    {
+      "skillId": "95402e7e-3666-434e-bf33-3e020e5c29dd",
+      "name": "re0-merge",
+      "description": "Review and land an external contribution the way this suite does: gate it against the thesis, land it with the author's credit intact, complete a new skill rather than merging it raw, then approve, credit, and explain before closing. Use when reviewing a pull request, as any collaborator or maintainer, not only the author.",
+      "head": {
+        "digest": "e67411a949acfd6e7a39b753927f65b11d19c35b82eceb3dda35209946524914",
+        "revision": 1
+      },
+      "updatedAt": 1793753662929
+    },
+    {
+      "skillId": "9c993035-ce99-4b7d-a99c-7dfb95f52bf4",
+      "name": "nba",
+      "description": "Read the live cycle state and return the single highest-leverage next best action, not a menu. Use when a project is between phases, the author asks what to do next, too many valid threads are open, or the work needs re-entry into frame, build, drive, re0-memo, hate, re0-work, or ship.",
+      "head": {
+        "digest": "1f067580991ccdabf2107be96eaf8fe4bec44906674b3a4289b91a28e4df9954",
+        "revision": 1
+      },
+      "updatedAt": 1793753628264
+    },
+    {
+      "skillId": "9e5cfae2-d35b-41a7-b83d-00121548663b",
+      "name": "macrothink",
+      "description": "User-invoked read-only pass for checking whether the current direction is tunnel-visioned: strip the session's bait, fan out 2 to 5 same-model fresh reads, and report divergence first without treating convergence as proof.",
+      "head": {
+        "digest": "a5a7821a394e87e368363b02d80c85eaa2d583ab9b3002efb10fdcf4241b1fd3",
+        "revision": 1
+      },
+      "updatedAt": 1793753613508
+    },
+    {
+      "skillId": "9fc6d5de-8979-4dd1-86c0-2791c7d50cd0",
+      "name": "use-case-modeling",
+      "description": "사용자 목표와 시스템 경계를 발견하고 use case의 주 성공·확장 흐름, 보장, 품질·도메인 규칙, 추적과 점진 상세화를 작성·검토한다. 요구사항 발견, 이해관계자 workshop, 수용 기준과 시나리오 전달 단위를 다룰 때 사용하는 독립 절차. Keywords: actor goals, system boundary, use cases, requirements discovery, stakeholder workshop, alternate scenarios, guarantees, quality requirements, traceability, evolutionary requirements, acceptance criteria.",
+      "head": {
+        "digest": "3b5b337e21c8b7af7caaea2451639ca5d2a66c27e839861b6d716d02b4f5cf75",
+        "revision": 1
+      },
+      "updatedAt": 1793843476934
+    },
+    {
+      "skillId": "a2b82e77-c96e-4948-8928-950271900753",
+      "name": "clean-code-readability",
+      "description": "Clean Code 2판의 이름, 주석, 형식 원칙으로 source code readability를 리뷰하거나 개선한다. 변수·함수·클래스 이름, 용어 일관성, misleading name, stale comment, 주석 처리된 코드, 선언 위치, 파일 내 순서, whitespace와 formatting 때문에 코드 의도가 잘 읽히지 않을 때 사용한다. 제품 문구나 일반 문서 압축에는 사용하지 않는다.",
+      "head": {
+        "digest": "ce5d519ec45373cd54c3f669eb3575fbc3374593a04e64c89820b45b743defc1",
+        "revision": 1
+      },
+      "updatedAt": 1793753530447
+    },
+    {
+      "skillId": "a769dbf7-59d0-48b9-9c8f-f795f754ccc3",
+      "name": "review-operations-delivery",
+      "description": "Review deployment, rollback, migration coexistence, CI permissions, dependency supply chains, configuration, logs, metrics, traces, and operational recovery. Use for runtime code, infrastructure-as-code, workflows, Dockerfiles, lockfiles, or observability changes.",
+      "head": {
+        "digest": "1787b1e5bcb0c103b12b943f6503a513616f2c5ec5bcb5d83c8e21f3e4a949ed",
+        "revision": 1
+      },
+      "updatedAt": 1793753733559
+    },
+    {
+      "skillId": "a87b79df-d3a7-4bf5-ae37-b4d0cb886450",
+      "name": "exploratory-ux-qa",
+      "description": "실제 브라우저에서 처음 쓰는 사용자 관점으로 서비스의 화면과 핵심 사용자 여정을 폭넓게 탐색하고, 로딩·오류·중단·복귀·반응형 상태를 검증하며, HAR와 화면 증거를 연결한 재현 가능한 UX QA 보고서를 작성한다. URL과 QA 계정으로 탐색형 UX QA를 수행하거나 HAR 기록이 포함된 사용자 여정 검증을 요청할 때 사용한다. 단순 디자인 의견, 픽셀 비교, 코드 수정 요청에는 적용하지 않는다.",
+      "head": {
+        "digest": "45ee0720c87a81d0f9165549229beab0c6162c50d745fd101236f6eae6d6decd",
+        "revision": 1
+      },
+      "updatedAt": 1793753573521
+    },
+    {
+      "skillId": "aa270c1b-82e6-4e10-8231-8f7d9eb5b347",
+      "name": "clean-code-tests",
+      "description": "Clean Code 2판의 testing disciplines, clean tests, acceptance testing 원칙으로 테스트 전략과 test code를 작성·리뷰·개선한다. TDD, TCR, small bundles, FIRST, Arrange-Act-Assert, brittle test, slow/flaky test, test DSL, acceptance criteria, regression proof와 refactoring safety를 다룰 때 사용한다.",
+      "head": {
+        "digest": "99c267517a041af29714d1ef65ee380b71e59f2b296c5dd2089dbbf70a704f7b",
+        "revision": 1
+      },
+      "updatedAt": 1793753535240
+    },
+    {
+      "skillId": "aa2cafb1-d1a8-4c20-aedb-7eab978153d3",
+      "name": "factchk",
+      "description": "Verify reality-grounded claims against external sources in both directions before they ship — could the 'absurd' be real, could the 'obvious' be false or long-established? Use whenever an artifact, or the sentence you are about to write, asserts something as plausible, realistic, absurd, novel, or impossible from intuition rather than a checked source; before relying on a factual claim in prose, a design rationale, a research claim, or a plan. Fires on metacognitive doubt — when you can't actually know, verify instead of trusting the feeling. Scans read-only, then fixes the clear errors or flags the judgment calls; leaves deliberate fiction alone.",
+      "head": {
+        "digest": "65764090678152e930637b732abae8552eb9e2c8d5e2b974072063b0719a5e0e",
+        "revision": 1
+      },
+      "updatedAt": 1793753578379
+    },
+    {
+      "skillId": "aba15344-4826-4035-8851-85b7f4fc4306",
+      "name": "sip",
+      "description": "After you create or change an artifact or skill, taste-test it with our own skills instead of trusting your in-session judgment — recursive self-improvement, made automatic. Use right after writing or editing anything, before calling it done, committing, or handing it off.",
+      "head": {
+        "digest": "b823b34d02419e9e304722bc0483dc8172dc0ea4bda4b2acde299e07be2b1345",
+        "revision": 1
+      },
+      "updatedAt": 1793753770457
+    },
+    {
+      "skillId": "b095874e-6e21-4530-abd5-206303124fe8",
+      "name": "web-operations-qa",
+      "description": "웹사이트·웹앱의 운영 성능, 브라우저·CDN 캐시, API 지연, 인프라 효율·비용, 백그라운드 작업과 데이터 보존 안정성을 실제 증거로 QA하고 최소 개선을 검증한다. 운영 병목 조사·캐시 검증·인프라 낭비 분석·안정성 개선 요청에 사용하며, 일반 UI 디자인 리뷰나 기능 구현만으로 적용하지 않는다.",
+      "head": {
+        "digest": "41ec111071870373de667689559c54508fab7ee3619296b4c218afba67acd5ed",
+        "revision": 1
+      },
+      "updatedAt": 1793753872253
+    },
+    {
+      "skillId": "b175e3d2-68d1-4bb0-993e-b4209e5e83ac",
+      "name": "mandela",
+      "description": "Audit any eval, metric, experiment, or benchmark for leakage — does external ground-truth enter independently, or are the model, scorer, and designer just confirming a result no outside truth ever produced? Use before trusting any 'how we'll know it worked' — an A/B, a holdout, a score, a validation — and whenever a result feels too clean or self-confirming. Walks an 8-pattern leakage taxonomy and returns only the patterns that fire, each with an independence fix. Read-only.",
+      "head": {
+        "digest": "489e1a1f43b06e75f145f35fcb7e780b893e9858526d8eec827045ba85636111",
+        "revision": 1
+      },
+      "updatedAt": 1793753618412
+    },
+    {
+      "skillId": "b361423a-58f7-4aa2-8a61-346c3eb47fe8",
+      "name": "testing-integration",
+      "description": "integration test의 시나리오, 실제 의존성, 관리·비관리 경계와 E2E 범위를 설계·리뷰한다. 단위 테스트로 확인할 수 없는 구성·영속화·외부 계약을 검증할 때 사용한다.",
+      "head": {
+        "digest": "26d8e92cb51b2a93d5adffe941c0b5957932bbaf59ecb4d43457448ba997fb41",
+        "revision": 1
+      },
+      "updatedAt": 1793753816689
+    },
+    {
+      "skillId": "b676f217-fae4-4494-b6dc-2096bd3f1fd8",
+      "name": "readchk",
+      "description": "Verify the model's understanding of a user's instruction before spending non-trivial work. Use when a request is long, bundled, high-stakes, hard to undo, or has ambiguous scope or referents such as this, that, it, the other one, whatever is cleaner, or whichever order makes sense. Restate internally, cross-check against available context, proceed silently when resolved, and surface only a genuine surviving fork.",
+      "head": {
+        "digest": "70f322c96b7519f668bd48493f7704a1280822ecf67d1e84e1ec7c05cf1c1c9b",
+        "revision": 1
+      },
+      "updatedAt": 1793753686775
+    },
+    {
+      "skillId": "b6fa1c81-c0ea-46a9-88db-c2ceaeafc73e",
+      "name": "clean-code-concurrency",
+      "description": "Clean Code 2판의 concurrency 원칙으로 threaded·async·parallel code를 설계, 리뷰, 리팩터링한다. shared mutable state, race, atomicity, locks, task ownership, deadlock, starvation, shutdown, cancellation, bounded resources, flaky concurrency tests와 sporadic failure를 다룰 때 사용한다.",
+      "head": {
+        "digest": "8f3e35a17ca6e2c746aab4b8ea4c399c8b819f7c653d9d70cd14cc337c266875",
+        "revision": 1
+      },
+      "updatedAt": 1793753506216
+    },
+    {
+      "skillId": "bd8f52d6-6927-4da7-874b-412921cfe889",
+      "name": "testing-unit-design",
+      "description": "unit test의 경계, AAA 구조, fixture, 이름, assertion과 parameterized case를 설계·리뷰한다. 빠르고 독립적이며 실패 원인이 분명한 behavior-focused test를 만들 때 사용한다.",
+      "head": {
+        "digest": "a60f13242b0f086aa828df99cdded545de16b8b716b182b4f7ea5fa4b843d82a",
+        "revision": 1
+      },
+      "updatedAt": 1793753841960
+    },
+    {
+      "skillId": "be52c817-282b-4261-9dda-da51d081ad9a",
+      "name": "feynman",
+      "description": "Press a decision you just made until you can explain it to a skeptic in your own words, or surface the gap where you can't. The Feynman test aimed at a choice: understanding is cheapest to fake the moment after you decide, so a fresh critic presses for what you can't actually explain. Use right after picking an option, especially one an agent laid out without arguing for.",
+      "head": {
+        "digest": "a9a7278f7ab59f85798d010e5d2215c400063351e962d682574d4a8d96e9d07a",
+        "revision": 1
+      },
+      "updatedAt": 1793753583260
+    },
+    {
+      "skillId": "c5903acd-0413-4af0-ba3a-1feb74e8d1f5",
+      "name": "review-architecture",
+      "description": "Review responsibilities, ownership, module boundaries, coupling, information hiding, dependencies, over-abstraction, and refactoring safety. Use for structural changes, shared abstractions, new dependencies, or domain-boundary changes.",
+      "head": {
+        "digest": "650a3553e08d2a51750a6c545c483eec224969bb298fc888ac415cf052083e3c",
+        "revision": 1
+      },
+      "updatedAt": 1793753701105
+    },
+    {
+      "skillId": "c743e808-834d-472d-8063-7f1eb3bdbd1a",
+      "name": "review-data-concurrency",
+      "description": "Review integrity in data models, database constraints, transactions, isolation, read-modify-write operations, locks, compare-and-swap, and migrations. Use for changes to SQL, ORMs, persistent or shared state, and concurrent workers.",
+      "head": {
+        "digest": "de5b9a99ea64264c866f53813c6f1d839bdf4c66976f1f19dae407fd9db15080",
+        "revision": 1
+      },
+      "updatedAt": 1793753715575
+    },
+    {
+      "skillId": "c99dfe2c-de45-4000-bbb3-f9ee2031d75d",
+      "name": "review-failure-resilience",
+      "description": "Review timeouts, retries, idempotency, external side effects, queue acknowledgments, outboxes, partial failure, and recovery. Use for changes to workers, schedulers, network calls, payments, publishing, notifications, or distributed jobs.",
+      "head": {
+        "digest": "0899829bef60c763da508441c7805ac5db430a057aa2c34eb2ce1e29e76fb21b",
+        "revision": 1
+      },
+      "updatedAt": 1793753728726
+    },
+    {
+      "skillId": "c9c53e92-1fee-4f9f-b85d-1599a2c99888",
+      "name": "object-design-workflow",
+      "description": "객체 설계·OOAD 작업을 risk-driven evolutionary cycle로 진행한다. unresolved decision, quality scenario, 작은 실행 반복, minimal analysis/design, code/test feedback, model refresh, model-code-date drift와 stop criteria를 연결해 요구·설계·구현의 불확실성을 줄일 때 사용한다.",
+      "head": {
+        "digest": "0f04b1c99ba158605a3cb573ebed177753636e7387001aebffca411509ed14a2",
+        "revision": 1
+      },
+      "updatedAt": 1793843183562
+    },
+    {
+      "skillId": "c9d96ad4-d723-4a42-b206-620eb852ccf0",
+      "name": "detool",
+      "description": "Make durable artifacts portable by replacing incidental stack, vendor, model, CLI, path, quota, or harness nouns with the mechanism they mean, while keeping provenance, runbooks, and tool-subject claims concrete.",
+      "head": {
+        "digest": "c8b3fd66a354ead9f476a21a5cd1f22891bb8558f4debe101572e922c0e4a312",
+        "revision": 1
+      },
+      "updatedAt": 1793753555907
+    },
+    {
+      "skillId": "cd8e5c01-b66a-471f-8d20-37c8db1aca79",
+      "name": "domain-contract-modeling",
+      "description": "개념 모델과 시스템 동작 계약을 도출·검토한다. domain model, conceptual class, association, multiplicity, role, temporal model, value type, generalization, SSD, system event, operation contract, precondition, postcondition, invariant와 scenario trace를 다룰 때 사용한다.",
+      "head": {
+        "digest": "8d9c0c6420941dc0feb570dc8089b67b0d4200fce228e336d033813b5cb4f49d",
+        "revision": 1
+      },
+      "updatedAt": 1793843501125
+    },
+    {
+      "skillId": "d4105916-2a12-41b8-ab89-a79d672fc258",
+      "name": "modelchk",
+      "description": "Size a task's run before spending it: the cheapest sufficient capability tier (fast, standard, frontier) and the reasoning effort within it, on a neutral scale that binds to whatever levels the model exposes. Use when work seems over- or under-powered, costly, ambiguous, or high-risk, or asks which model class and how much thinking is enough.",
+      "head": {
+        "digest": "b3b7f509e8344487603aece12d6ea875940135c1bd19ff81444d0d2ae331558b",
+        "revision": 1
+      },
+      "updatedAt": 1793753623275
+    },
+    {
+      "skillId": "d46ab44a-6ae9-4023-86f9-8004f57f9018",
+      "name": "clean-code-ai",
+      "description": "Clean Code 2판의 AI·LLM 장을 바탕으로 coding agent와 generated code를 안전하게 사용하고 검증한다. prompt로 구현·테스트·리팩터링을 맡기거나, AI가 만든 plausible but wrong code, regenerated drift, ambiguous specification, generated test blind spot, human review 책임을 다룰 때 사용한다.",
+      "head": {
+        "digest": "a013a7d63d23a26619aa4eefa337ae118ca0efb06bfa338b69c6c938d0e5002a",
+        "revision": 1
+      },
+      "updatedAt": 1793753496615
+    },
+    {
+      "skillId": "d972a686-7ed1-43a0-8ef9-0d84ed43dd5f",
+      "name": "arkpoint-gisul",
+      "description": "ARKPOINT 팀 Gisul 플러그인의 연결 문제를 확인하거나 팀 스킬 등록 방법을 안내할 때 사용한다.",
+      "head": {
+        "digest": "751a6a678cdef3bf0d0993217c94030d71e70c47952c516a47b8e9355d40ee9f",
+        "revision": 1
+      },
+      "updatedAt": 1793753460135
+    },
+    {
+      "skillId": "db6b2c64-f635-4431-9f9c-bd1eaef1412b",
+      "name": "aside-browser",
+      "description": "Read when you need a browser, or have to work across user's logged-in websites (e.g. Gmail, Slack, cloud consoles, etc.), or have to refer personal contexts like memory and browsing history.",
+      "head": {
+        "digest": "227d3eda034639364cbb9e3f27e343c73026f1ae070d16b7a334c2e3cc506385",
+        "revision": 1
+      },
+      "updatedAt": 1793753470974
+    },
+    {
+      "skillId": "dc1b4dea-ffb1-418e-a78a-36ce4931f1f1",
+      "name": "review-api-contracts",
+      "description": "Review HTTP/API contracts, events, SDKs, serialization, errors, pagination, and version or consumer compatibility. Use when public functions, endpoints, payloads, schemas, event contracts, or old/new version coexistence change.",
+      "head": {
+        "digest": "2a395e71160df0ff7131b2e9a2823f530becf91c4145f6e8bc30e85e71292bf3",
+        "revision": 1
+      },
+      "updatedAt": 1793753696357
+    },
+    {
+      "skillId": "dcbfbb55-256e-43e9-ad45-72535b76efa8",
+      "name": "hate",
+      "description": "Attack a plan, design, or argument like you want it to fail before you commit real effort — return the single load-bearing objection and the cheapest experiment that would prove it matters, not a checklist. User-invoked on purpose: a hate-it reflex always in the agent's reach would bias it toward demolition. Weighs many failure axes but owns the synthesis to one root.",
+      "head": {
+        "digest": "a52432dfbb88f4ba19362a12c32913a46e735d978cf04cc99767d0cda1154764",
+        "revision": 1
+      },
+      "updatedAt": 1793753598882
+    },
+    {
+      "skillId": "def66ee3-a3a8-4fb0-97f3-2aacd2569976",
+      "name": "review-explainer",
+      "description": "코드 리뷰 결과를 시스템에 익숙하지 않은 독자도 이해할 수 있는 문서형 웹 설명서로 만든다. 상황·저장 위치·전후 변화와 이슈에 맞는 UML을 연결하고 실제 코드 이름을 보존한다. 리뷰 이슈의 원인과 개선안을 시각적으로 설명하거나 기존 설명의 맥락·가독성을 개선할 때 사용한다. 코드 리뷰 자체, 이슈 등록, 슬라이드 제작만 요청한 경우에는 적용하지 않는다.",
+      "head": {
+        "digest": "65cf29442eb05f7b60255c6f0412f36de638392e2b2d2b1df380f4a3d5f16112",
+        "revision": 1
+      },
+      "updatedAt": 1793753722752
+    },
+    {
+      "skillId": "e0632892-e98f-42e7-b49b-ea2caf43d6fd",
+      "name": "review-correctness-state",
+      "description": "Review defects in requirements, execution flow, state transitions, invariants, types, null handling, calculations, and time handling. Use when a code review changes business logic, state, asynchronous control flow, or runtime conversions.",
+      "head": {
+        "digest": "32aaeb471e947cbf4842bbcdfa8d059483826c51de30533033a0e6736abac401",
+        "revision": 1
+      },
+      "updatedAt": 1793753710737
+    },
+    {
+      "skillId": "e84865d1-ccce-412f-8772-b51af28687b5",
+      "name": "testing-test-doubles",
+      "description": "mock, stub, spy, fake의 역할과 interaction verification을 설계·리뷰한다. 내부 구현 결합을 줄이고 외부에 관찰되는 비관리 의존성 계약을 검증할 때 사용한다.",
+      "head": {
+        "digest": "dd4b433be2653c4d6df6cbf7b011ca3b2fe1528a242af099cc70c472fe7e3179",
+        "revision": 1
+      },
+      "updatedAt": 1793753825198
+    },
+    {
+      "skillId": "eec3b09b-67d4-4e1e-a246-c6822979c5ea",
+      "name": "preserve-decisions",
+      "description": "Preserve scope, decisions and evidence across substantial work, session handoffs, and review-to-explanation or implementation handoffs. Keep code identities, runtime context and uncertainty traceable. Ordinary lookups and small edits use the current request or existing checklist.",
+      "head": {
+        "digest": "7932d60e9862f8d15f9bab8dffe84a0ef963275004f268a4be89c783eabbce77",
+        "revision": 1
+      },
+      "updatedAt": 1793753633550
+    },
+    {
+      "skillId": "f13cebe8-c8f1-4412-ad28-732cb3de9d35",
+      "name": "testing-testability",
+      "description": "복잡한 도메인 로직과 I/O·프레임워크 조정을 분리해 가치 있는 테스트가 가능한 구조로 리팩터링한다. Humble Object, functional core, application service, domain event와 dependency boundary를 검토할 때 사용한다.",
+      "head": {
+        "digest": "adcac7edc218912d541263073a508b428ec4d3203923064ebe1cf755a88a269b",
+        "revision": 1
+      },
+      "updatedAt": 1793753833876
+    },
+    {
+      "skillId": "f2b99b83-0d9e-4e3b-83a8-28ba33e12c5c",
+      "name": "clean-code",
+      "description": "Clean Code 2판을 바탕으로 코드 작성, 리뷰, 리팩터링, 설계, 테스트, 아키텍처, 동시성, AI 보조 개발, 팀 실천을 조율하는 Clean Code skill pack의 진입점이다. clean code, code cleanup, readability, maintainability, refactor, naming, functions, tests, SOLID, architecture처럼 여러 영역을 함께 다루거나 어떤 전문 스킬을 써야 할지 고를 때 사용한다.",
+      "head": {
+        "digest": "6dfe8d07368c678c55dea1ba9f8175259f97060f4cb6675829fc9dd9b8b5021c",
+        "revision": 1
+      },
+      "updatedAt": 1793753491245
+    },
+    {
+      "skillId": "f336a24e-e341-4c8f-a6b9-4947656f9d89",
+      "name": "autobahn",
+      "description": "Carve guardrail-adjacent items out of scope with safe alternatives before risk-adjacent work starts, then run the safe remainder at full strength in a fresh subagent that only ever sees the carved prompt, never the risky input. Use when a task includes stealth, scraping, privacy, IP, policy, licensing, security, or other safety-adjacent material that could be silently dropped, over-elaborated, or needlessly diluted. Fires on the impulse, not only the topic: the moment you notice yourself about to hedge, soften, silently skip, or brace for a refusal, carve before you execute.",
+      "head": {
+        "digest": "ca0aef1b5b28a44cc5cb22ac51c609e2aa0cd7272673e955ebf84b1ec26b3d18",
+        "revision": 1
+      },
+      "updatedAt": 1793753475924
+    }
+  ]
+}
